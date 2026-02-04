@@ -1,0 +1,615 @@
+{
+    "career": [
+        {
+            "question": "Mác khẳng định: 'Giai cấp công nhân là người đào mộ của chủ nghĩa tư bản'. Trong bối cảnh kinh tế số, điều này được thể hiện như thế nào qua lập trình viên, kỹ sư AI?",
+            "options": [
+                "A. Họ làm chủ công nghệ - tư liệu sản xuất hiện đại, có tiềm năng xóa bỏ sự bóc lột thông qua mã nguồn mở và phi tập trung hóa",
+                "B. Họ không còn là giai cấp công nhân vì làm việc trí óc trong môi trường văn phòng cao cấp với mức lương khá",
+                "C. Họ trở thành một bộ phận của giai cấp tư sản công nghệ nhờ nắm giữ cổ phiếu và kiến thức chuyên môn cao",
+                "D. Họ chỉ đơn giản là công cụ phục vụ cho hệ thống tư bản mà không có vai trò quyết định trong sản xuất"
+            ],
+            "correct": 0,
+            "explanation": "Công nhân trí thức CNTT làm chủ công nghệ - TLSX quan trọng nhất thời đại số. Họ có khả năng xây dựng phương thức sản xuất mới, phi tập trung hóa (blockchain, open source), phá vỡ độc quyền tư bản công nghệ - đúng như Mác dự đoán về vai trò 'đào mộ' của GCCN."
+        },
+        {
+            "question": "Từ thợ dệt thủ công thế kỷ 18 đến công nhân nhà máy thế kỷ 19, đến lập trình viên thế kỷ 21 - sự biến đổi này thể hiện quy luật nào của Mác?",
+            "options": [
+                "A. Giai cấp công nhân luôn biến đổi cùng với sự phát triển của lực lượng sản xuất, từ chân tay sang trí óc nhưng bản chất bán sức lao động không đổi",
+                "B. Công nhân ngày càng giảm về số lượng do tự động hóa thay thế, dần trở thành giai cấp thiểu số trong xã hội hiện đại",
+                "C. Không có mối liên hệ thực sự giữa các thế hệ công nhân vì bản chất công việc đã thay đổi hoàn toàn",
+                "D. Lập trình viên thuộc tầng lớp trí thức mới, độc lập với giai cấp công nhân truyền thống về cả tư tưởng và lợi ích"
+            ],
+            "correct": 0,
+            "explanation": "Mác chỉ ra: GCCN không phải khái niệm tĩnh mà biến đổi theo LLSX. Từ máy hơi nước (1.0) → dây chuyền (2.0) → tự động hóa (3.0) → AI/IoT (4.0), công nhân chuyển từ chân tay sang trí óc, nhưng bản chất 'bán sức lao động để sống' không thay đổi."
+        },
+        {
+            "question": "Mác dự đoán: 'Máy móc làm tăng giá trị thặng dư bằng cách thay thế lao động sống'. AI hiện nay đang tạo ra mâu thuẫn gì?",
+            "options": [
+                "A. AI tăng năng suất đột phá nhưng lợi nhuận tập trung vào tay tư bản công nghệ Big Tech, trong khi công nhân thấp kỹ năng đối mặt thất nghiệp hàng loạt",
+                "B. Không có mâu thuẫn thực sự vì AI tạo ra nhiều việc làm mới bù đắp cho những việc làm bị thay thế",
+                "C. AI đang giải quyết hoàn toàn mâu thuẫn giai cấp bằng cách tạo ra của cải dồi dào cho toàn xã hội",
+                "D. Mâu thuẫn chỉ ảnh hưởng đến công nhân chân tay trong nhà máy, không tác động đến lao động trí thức"
+            ],
+            "correct": 0,
+            "explanation": "Đúng như Mác dự đoán: AI tăng năng suất vượt bậc nhưng lợi nhuận tập trung vào Google, Meta, Microsoft. Công nhân phổ thông phải upskill hoặc bị đào thải - mâu thuẫn giữa LLSX tiên tiến và quan hệ SX tư bản cũ tái hiện ở quy mô lớn hơn."
+        },
+        {
+            "question": "Sinh viên FPT tốt nghiệp làm lập trình viên tại FPT Software với lương 15 triệu/tháng, làm 9 tiếng/ngày. Theo Mác, họ thuộc giai cấp nào và tại sao?",
+            "options": [
+                "A. Giai cấp công nhân vì bán sức lao động (code), không sở hữu sản phẩm, phương tiện sản xuất và bị chiếm đoạt giá trị thặng dư",
+                "B. Tầng lớp trung lưu mới vì có mức thu nhập khá, làm việc văn phòng và có cơ hội thăng tiến trong nghề nghiệp",
+                "C. Giai cấp tư sản nhỏ vì nắm giữ kiến thức công nghệ chuyên môn và có thể tự khởi nghiệp bất cứ lúc nào",
+                "D. Tầng lớp trí thức độc lập vì công việc sáng tạo đòi hỏi trình độ cao, không phải lao động máy móc như công nhân nhà máy"
+            ],
+            "correct": 0,
+            "explanation": "Theo Mác, tiêu chí phân giai cấp là quan hệ với TLSX, không phải thu nhập hay môi trường làm việc. Lập trình viên: không sở hữu máy chủ, hệ thống, sản phẩm → bán sức lao động trí óc → thuộc GCCN hiện đại. Đây là 'công nhân cổ trắng' thế kỷ 21."
+        },
+        {
+            "question": "Cuộc nổi dậy của thợ dệt Luddite (Anh 1811-1816) đập phá máy dệt. So sánh với công nhân Việt Nam đối mặt AI, bài học lịch sử là gì?",
+            "options": [
+                "A. Không chống lại công nghệ mà phải làm chủ nó, upskill để kiểm soát TLSX mới thay vì bị công nghệ kiểm soát",
+                "B. Nên tổ chức phản kháng mạnh mẽ chống lại AI và robot giống như Luddites để bảo vệ việc làm truyền thống",
+                "C. Chấp nhận thất nghiệp và chờ đợi chính phủ hỗ trợ vì xu hướng tự động hóa là không thể đảo ngược",
+                "D. Bài học Luddite không còn phù hợp với thời đại hiện đại vì tình hình đã thay đổi hoàn toàn sau 200 năm"
+            ],
+            "correct": 0,
+            "explanation": "Luddites thất bại vì chống lại LLSX tiên tiến. Mác chỉ ra: không phải công nghệ là kẻ thù mà chế độ tư bản sử dụng nó để bóc lột. Bài học cho VN: công nhân phải nắm AI/tự động hóa, biến nó thành công cụ giải phóng, không để bị đào thải."
+        },
+        {
+            "question": "Mác nói về 'xã hội tự quản lý của những người lao động tự do'. Blockchain và Web3 có tiềm năng nào gần với tư tưởng này?",
+            "options": [
+                "A. Phi tập trung hóa quyền lực, cho phép cộng đồng tự quản trị không qua trung gian tư bản, nhưng vẫn cần định hướng xã hội chủ nghĩa",
+                "B. Không có liên quan gì đến lý tưởng của Mác vì blockchain chỉ là công nghệ tài chính phục vụ đầu cơ",
+                "C. Đây chính là hình thức CNXH tự nhiên và sẽ tự động thay thế chủ nghĩa tư bản mà không cần đấu tranh",
+                "D. Blockchain chỉ làm tăng cường quyền lực của tầng lớp tư bản công nghệ mới, không giải phóng người lao động"
+            ],
+            "correct": 0,
+            "explanation": "Blockchain cho phép DAO (Decentralized Autonomous Organization) - tổ chức tự trị không cần CEO, cộng đồng bầu chọn. Tương tự 'xã hội tự quản lý' của Mác. Nhưng hiện vẫn bị Big Tech kiểm soát hạ tầng - cần định hướng XHCN thực sự."
+        },
+        {
+            "question": "Mác: 'Giá trị thặng dư = Sản phẩm lao động - Lương công nhân'. Data Scientist phân tích Big Data tạo doanh thu tỉ USD cho công ty nhưng lương 30 triệu/tháng. Điều này chứng minh?",
+            "options": [
+                "A. Bóc lột vẫn tồn tại rõ ràng: giá trị do lao động trí thức tạo ra vượt xa lương nhận được, phần chênh lệch lớn bị chiếm đoạt",
+                "B. Mức lương 30 triệu/tháng đã cao nên không thể coi là bóc lột, đây là thù lao xứng đáng với trình độ",
+                "C. Công ty trả lương đúng với giá trị thị trường nên đây là quan hệ công bằng giữa hai bên tự nguyện",
+                "D. Không có giá trị thặng dư trong lao động trí thức vì sản phẩm là kết quả tập thể, không tính được cá nhân"
+            ],
+            "correct": 0,
+            "explanation": "Dù lương cao nhưng giá trị thặng dư vẫn khổng lồ: mô hình AI Data Scientist tạo ra tiết kiệm/doanh thu tỉ USD, lương 360 triệu/năm chỉ là 1 phần cực nhỏ. Trong kinh tế số, tỉ lệ bóc lột thậm chí cao hơn công nghiệp truyền thống do hiệu ứng nhân bội số."
+        },
+        {
+            "question": "Năm 1886, công nhân Chicago đình công đòi 8 giờ làm việc/ngày, 64 người hy sinh. Hiện nay kỹ sư CNTT Việt Nam thường làm 9-10 giờ/ngày, có OT không lương. Điều này phản ánh?",
+            "options": [
+                "A. Cuộc đấu tranh cho điều kiện lao động văn minh là sứ mệnh liên tục, mỗi thế hệ GCCN phải đấu tranh lại quyền lợi của mình",
+                "B. Công nhân hiện đại có thu nhập cao hơn nên không cần đấu tranh về giờ làm như trước đây nữa",
+                "C. Mức lương khá đã bù đắp cho giờ làm nhiều nên đây là sự thỏa thuận hợp lý giữa hai bên",
+                "D. Không có liên hệ giữa cuộc đấu tranh quá khứ và hiện tại vì bản chất lao động đã khác hoàn toàn"
+            ],
+            "correct": 0,
+            "explanation": "Cuộc đấu tranh 1/5/1886 giành 8h làm việc sau khi nhiều người hy sinh. Nhưng trong kinh tế số, 'crunch time', '996', 'OT không lương' xuất hiện trở lại → GCCN VN cần công đoàn số mạnh để đấu tranh bảo vệ quyền lợi - lịch sử lặp lại."
+        },
+        {
+            "question": "Cloud Computing (AWS, Azure, Google Cloud) biến phần mềm thành dịch vụ thuê bao. Theo lý thuyết Mác về các hình thái tư bản, đây là dạng nào?",
+            "options": [
+                "A. Tư bản độc quyền mới: kiểm soát hạ tầng số, cho thuê thay vì bán, khiến doanh nghiệp/cá nhân phụ thuộc hoàn toàn vào Big Tech",
+                "B. Tư bản công nghiệp tiên tiến phục vụ nhu cầu xã hội, giảm chi phí đầu tư cho doanh nghiệp nhỏ",
+                "C. Tư bản thương nghiệp truyền thống chuyển sang hình thức số, không có gì khác biệt về bản chất",
+                "D. Không phải dạng tư bản nào vì đây là dịch vụ chia sẻ nguồn lực công nghệ mang tính cộng đồng"
+            ],
+            "correct": 0,
+            "explanation": "Cloud là tư bản độc quyền 2.0: thay vì bán sản phẩm một lần, Big Tech kiểm soát hạ tầng và cho thuê suốt đời, DN/cá nhân phụ thuộc hoàn toàn. Giống chủ đất cho thuê thời phong kiến nhưng ở quy mô toàn cầu - độc quyền tuyệt đối."
+        },
+        {
+            "question": "Lênin: 'Không có lý luận cách mạng thì không có phong trào cách mạng'. Với kỹ sư AI Việt Nam được đào tạo bài bản về công nghệ, câu nói này ngụ ý gì?",
+            "options": [
+                "A. Phải kết hợp tri thức kỹ thuật với nhận thức giai cấp để biết mình làm cho ai, vì ai và có trách nhiệm gì với đất nước",
+                "B. Chỉ cần có kỹ năng code giỏi và kiến thức AI sâu là đủ để thành công trong sự nghiệp công nghệ",
+                "C. Không cần học lý thuyết chính trị vì nó xa rời thực tế và không giúp ích cho công việc kỹ thuật",
+                "D. Chỉ cần tập trung kiếm tiền cao và thăng tiến trong nghề là hoàn thành tốt vai trò của bản thân"
+            ],
+            "correct": 0,
+            "explanation": "Kỹ sư AI/SV FPT cần nhận thức: mình là GCCN trí thức với sứ mệnh xây dựng nền công nghệ tự chủ, phục vụ 100 triệu dân, không chỉ là 'công cụ code' cho tư bản nước ngoài. Không có lý luận đúng sẽ lạc lối."
+        },
+        {
+            "question": "Cybersecurity Engineer bảo vệ hệ thống ngân hàng, bệnh viện, chính phủ khỏi tấn công mạng. Theo quan điểm GCCN lãnh đạo, vai trò này thể hiện như thế nào?",
+            "options": [
+                "A. Công nhân trí thức bảo vệ an ninh quốc gia trên không gian mạng, phục vụ 100 triệu dân - thể hiện sứ mệnh lãnh đạo xã hội",
+                "B. Chỉ là một công việc kỹ thuật chuyên môn bình thường để kiếm sống, không có ý nghĩa đặc biệt gì",
+                "C. Vai trò không quan trọng vì an ninh mạng chỉ ảnh hưởng đến một số ít cơ quan nhà nước",
+                "D. Công việc này chỉ nhằm mục đích bảo vệ lợi ích của các tập đoàn lớn, không liên quan toàn xã hội"
+            ],
+            "correct": 0,
+            "explanation": "An ninh mạng = an ninh quốc gia thời đại số. Kỹ sư security bảo vệ hạ tầng quan trọng, dữ liệu 100 triệu dân → thể hiện tinh thần 'toàn tâm toàn ý phục vụ nhân dân' - bản chất của GCCN lãnh đạo xã hội XHCN."
+        },
+        {
+            "question": "Open Source (Linux, Python, Kubernetes...) cho phép toàn cầu cùng phát triển, sử dụng miễn phí. Theo Mác về hình thái sản xuất, đây là dấu hiệu của gì?",
+            "options": [
+                "A. Sản xuất xã hội hóa - tri thức thuộc về cộng đồng toàn cầu, tiền thân của phương thức sản xuất XHCN tương lai",
+                "B. Tư bản 'miễn phí' - chiến lược marketing thông minh của các công ty công nghệ để thu hút người dùng",
+                "C. Không có giá trị kinh tế thực sự vì sản phẩm miễn phí không tạo ra lợi nhuận và giá trị thặng dư",
+                "D. Chỉ là chiến lược kinh doanh ngắn hạn, cuối cùng vẫn sẽ trở thành sản phẩm thương mại có tính phí"
+            ],
+            "correct": 0,
+            "explanation": "Open Source thể hiện 'sản xuất xã hội hóa' - hàng triệu lập trình viên toàn cầu cộng tác tạo sản phẩm chung không vì lợi nhuận. Gần với lý tưởng CNXH: 'Từ mỗi người theo khả năng, cho mỗi người theo nhu cầu' - mầm mống XHCN trong lòng TBCN."
+        },
+        {
+            "question": "DevOps Engineer tự động hóa quy trình triển khai phần mềm, giảm thời gian từ tháng xuống còn phút. Giá trị thặng dư được tạo ra như thế nào?",
+            "options": [
+                "A. Năng suất tăng vọt nhưng số lượng nhân sự không tăng tương ứng, phần chênh lệch giá trị đó bị tư bản chiếm đoạt hoàn toàn",
+                "B. Không có giá trị thặng dư vì công việc này là tự động hóa, không phải lao động sống tạo ra giá trị mới",
+                "C. DevOps Engineer được trả lương cao nên đã nhận đủ giá trị lao động của mình, không bị bóc lột",
+                "D. Giá trị được chia đều cho cả team và công ty nên đây là mô hình sản xuất công bằng hiện đại"
+            ],
+            "correct": 0,
+            "explanation": "Mác: lao động sống tạo giá trị mới. DevOps tăng năng suất 100-1000 lần nhưng lương không tăng tương ứng → phần lớn giá trị mới bị chiếm đoạt. Đây là bóc lột trí óc ở quy mô lớn - điển hình nền kinh tế số."
+        },
+        {
+            "question": "Giám đốc công nghệ (CTO) của startup có 5% cổ phần, lương 100 triệu/tháng, quyết định chiến lược kỹ thuật. Theo Mác, họ thuộc giai cấp nào?",
+            "options": [
+                "A. Biên giới giai cấp mờ nhạt: vừa bán lao động trí óc vừa sở hữu một phần TLSX, có thể trở thành tư sản hoặc vẫn là GCCN tùy phát triển",
+                "B. Hoàn toàn là giai cấp công nhân vì vẫn phải bán sức lao động và nhận lương hàng tháng như mọi nhân viên",
+                "C. Đã trở thành giai cấp tư sản công nghệ vì có cổ phần, lương cao và quyền quyết định trong công ty",
+                "D. Thuộc tầng lớp trung lưu mới, độc lập với cả GCCN và tư sản, là giai cấp thứ ba của xã hội số"
+            ],
+            "correct": 0,
+            "explanation": "Mác: phân giai cấp dựa vào quan hệ với TLSX. CTO startup: có cổ phần (sở hữu một phần TLSX) nhưng vẫn làm việc (bán lao động). Nếu startup thành công → tư sản; thất bại → GCCN. Đây là 'biên giới giai cấp' mờ của kinh tế số."
+        }
+    ],
+    "study": [
+        {
+            "question": "Mác phân biệt 'Giai cấp tự mình' (class in itself) và 'Giai cấp vì mình' (class for itself). Sinh viên FPT chỉ học để có việc lương cao thuộc loại nào?",
+            "options": [
+                "A. 'Giai cấp tự mình' - tồn tại khách quan nhưng chưa có ý thức về vai trò lịch sử, sứ mệnh lớn hơn lợi ích cá nhân",
+                "B. 'Giai cấp vì mình' - đã hoàn toàn tự giác về sứ mệnh xây dựng đất nước và vị trí giai cấp của bản thân",
+                "C. Không thuộc giai cấp công nhân nào cả vì đây là tầng lớp trí thức có đặc thù riêng biệt về nghề nghiệp",
+                "D. Đã hoàn thành quá trình giác ngộ giai cấp khi tốt nghiệp và đi làm với mức lương ổn định"
+            ],
+            "correct": 0,
+            "explanation": "'Giai cấp tự mình': tồn tại khách quan nhưng chưa nhận thức vai trò lịch sử. 'Giai cấp vì mình': tự giác về sứ mệnh. SV FPT cần chuyển từ 'học cho bản thân' sang 'học vì xây dựng công nghệ tự chủ cho VN' - đó là con đường trở thành GCCN tự giác."
+        },
+        {
+            "question": "Học thuyết Mác-Lênin về GCCN giúp sinh viên FPT điều gì trong định hướng nghề nghiệp công nghệ?",
+            "options": [
+                "A. Nhận thức đúng vị trí giai cấp của mình, gắn lợi ích cá nhân với xây dựng nền công nghệ tự chủ cho 100 triệu người Việt",
+                "B. Chỉ là kiến thức lý thuyết để thi qua môn, không có ứng dụng thực tế trong nghề nghiệp CNTT hiện đại",
+                "C. Không có liên quan gì đến ngành công nghệ thông tin vì đây là lý thuyết về giai cấp công nhân nhà máy",
+                "D. Chỉ dành cho những người muốn trở thành cán bộ Đảng, không phù hợp với kỹ sư công nghệ"
+            ],
+            "correct": 0,
+            "explanation": "Lý luận Mác-Lênin giúp SV CNTT nhận thức: mình không phải 'coder thuê' mà là GCCN trí thức VN với sứ mệnh làm chủ công nghệ, xây dựng Make in Vietnam digital, xóa bỏ khoảng cách số với thế giới - có định hướng mới không lạc lối."
+        },
+        {
+            "question": "Tại sao công nhân cần học suốt đời trong thời đại AI? Mác đã giải thích mối quan hệ giữa con người và công nghệ như thế nào?",
+            "options": [
+                "A. LLSX thay đổi không ngừng, công nhân phải liên tục nắm công nghệ mới để làm chủ TLSX, không bị công nghệ kiểm soát và đào thải",
+                "B. Vì các nhà tuyển dụng ngày càng đòi hỏi cao về trình độ nên phải học để đáp ứng nhu cầu thị trường lao động",
+                "C. Để có thêm nhiều bằng cấp, chứng chỉ quốc tế đẹp trên CV và tạo lợi thế cạnh tranh khi tìm việc",
+                "D. Không nhất thiết phải học nhiều vì kinh nghiệm thực tế quan trọng hơn kiến thức lý thuyết sách vở"
+            ],
+            "correct": 0,
+            "explanation": "Mác: 'Lực lượng sản xuất quyết định quan hệ sản xuất'. Khi LLSX (AI, IoT, Quantum) thay đổi nhanh, công nhân phải học liên tục để LÀM CHỦ nó, nếu không sẽ bị biến thành 'phụ kiện của máy móc' - nghịch lý mà Mác cảnh báo từ thế kỷ 19."
+        },
+        {
+            "question": "Lênin nhấn mạnh vai trò trí thức cách mạng đem lý luận vào phong trào công nhân. Sinh viên FPT học AI, Blockchain có trách nhiệm xã hội gì?",
+            "options": [
+                "A. Nghiên cứu, ứng dụng công nghệ giải quyết vấn đề thực tiễn Việt Nam: nông nghiệp thông minh, y tế từ xa, giáo dục công bằng",
+                "B. Chỉ cần tập trung code cho các công ty outsourcing nước ngoài để kiếm lương cao nhất có thể",
+                "C. Không có trách nhiệm xã hội gì ngoài việc hoàn thành tốt công việc được giao tại công ty",
+                "D. Chỉ cần kiếm tiền tốt cho bản thân và gia đình, không cần quan tâm đến vấn đề xã hội rộng hơn"
+            ],
+            "correct": 0,
+            "explanation": "Theo Lênin, trí thức cách mạng phải gắn với quần chúng. SV FPT học AI không chỉ code outsource mà phải hướng về giải quyết vấn đề VN: AI phát hiện bệnh cho nông thôn, blockchain minh bạch chuỗi cung ứng - đó là thực hành sứ mệnh GCCN trí thức phục vụ nhân dân."
+        },
+        {
+            "question": "Trong 'Tư bản', Mác phân tích sự phân công lao động quá hẹp làm người công nhân bị 'tật nguyền tinh thần'. Thời đại AI đặt ra yêu cầu gì?",
+            "options": [
+                "A. Phát triển toàn diện: kỹ thuật chuyên sâu + tư duy nhân văn + khả năng hệ thống + trách nhiệm xã hội + đạo đức công nghệ",
+                "B. Chỉ cần chuyên sâu vào một kỹ năng duy nhất như AI hoặc Blockchain để trở thành chuyên gia đầu ngành",
+                "C. Không cần học thêm gì nhiều vì AI sẽ hỗ trợ và bù đắp những thiếu sót trong năng lực",
+                "D. Chỉ cần tập trung học các kỹ năng kỹ thuật cứng, không cần bận tâm đến kỹ năng mềm hay nhân văn"
+            ],
+            "correct": 0,
+            "explanation": "Mác chỉ ra công nhân trở thành 'phần phụ của máy'. Trong thời đại AI, để không bị thay thế, GCCN trí thức cần: technical skills + critical thinking + ethics + social awareness + creativity - trở thành 'con người toàn diện' mà Mác hướng tới trong XHCN."
+        },
+        {
+            "question": "Hồ Chí Minh: 'Học đi đôi với hành'. Sinh viên FPT học Mác-Lênin nhưng không quan tâm thực tiễn VN, chỉ copy giải pháp nước ngoài - sai ở đâu?",
+            "options": [
+                "A. Học lý luận mà không vận dụng sáng tạo vào hoàn cảnh cụ thể = học giáo điều, không thực hiện được sứ mệnh phát triển VN",
+                "B. Không có gì sai vì lý thuyết là lý thuyết, thực tiễn là thực tiễn, hai thứ tách biệt không liên quan với nhau",
+                "C. Copy nước ngoài là đúng vì họ tiên tiến hơn, chỉ cần áp dụng y nguyên vào VN sẽ thành công",
+                "D. Thực tiễn không quan trọng bằng việc nắm vững lý thuyết và đạt điểm cao trong các kỳ thi"
+            ],
+            "correct": 0,
+            "explanation": "Hồ Chí Minh vận dụng sáng tạo Mác-Lênin vào VN. SV FPT phải: áp dụng nguyên lý GCCN vào bối cảnh kinh tế số VN độc đáo, tìm giải pháp công nghệ phù hợp văn hóa-xã hội VN, không copy y phương Tây - đó mới là 'học đi đôi với hành' thực sự."
+        },
+        {
+            "question": "Chương trình 'Chứng chỉ quốc tế AWS, Azure, Google Cloud' rất phổ biến. Theo Mác về 'phụ thuộc công nghệ', điều này tiềm ẩn vấn đề gì?",
+            "options": [
+                "A. Phụ thuộc hoàn toàn vào công nghệ nước ngoài, VN chưa tự chủ nền tảng - cần song hành xây dựng công nghệ gốc riêng",
+                "B. Hoàn toàn tốt và cần thiết vì các nền tảng này là tiêu chuẩn toàn cầu, không cần tự phát triển",
+                "C. Không cần bằng cấp quốc tế, chỉ cần học công nghệ trong nước là đủ để phát triển nghề nghiệp",
+                "D. Chỉ nên học trong nước để bảo vệ thị trường lao động và không bị ảnh hưởng bởi nước ngoài"
+            ],
+            "correct": 0,
+            "explanation": "Mác cảnh báo về phụ thuộc TLSX. Học AWS/Azure tốt NHƯNG VN cần SV nghiên cứu xây dựng nền tảng cloud riêng (VNG Cloud, Viettel Cloud, MobiFone Cloud) để tự chủ - đó là sứ mệnh GCCN trí thức: không chỉ 'dùng' mà 'làm chủ'."
+        },
+        {
+            "question": "Trong 'Chủ nghĩa xã hội không tưởng và chủ nghĩa xã hội khoa học', Engels phê phán những người học giáo điều. Áp dụng vào học Mác-Lênin thế nào?",
+            "options": [
+                "A. Nắm vững phương pháp luận duy vật biện chứng, vận dụng sáng tạo phân tích mâu thuẫn kinh tế số VN, không học vẹt công thức",
+                "B. Cần học thuộc lòng tất cả các công thức, định nghĩa và trích dẫn nguyên văn trong sách giáo khoa",
+                "C. Không cần học Mác-Lênin vì đây là lý thuyết cũ, không phù hợp với kỷ nguyên công nghệ 4.0",
+                "D. Chỉ cần học để thi đạt điểm cao, sau đó có thể quên đi vì không dùng trong công việc thực tế"
+            ],
+            "correct": 0,
+            "explanation": "Engels: XHKH là khoa học, không phải giáo điều. Học Mác-Lênin = học PHƯƠNG PHÁP LUẬN phân tích mâu thuẫn giai cấp, rồi tự phân tích: Platform economy, Gig workers, AI displacement, Digital divide ở VN - đó mới là học đúng tinh thần khoa học."
+        },
+        {
+            "question": "Năm 1902, Lênin viết 'Làm gì?', nhấn mạnh vai trò tổ chức và giáo dục lẫn nhau trong GCCN. Sinh viên FPT ngày nay nên làm gì?",
+            "options": [
+                "A. Tham gia CLB công nghệ, tổ chức workshop chia sẻ kiến thức, xây dựng cộng đồng GCCN trí thức VN mạnh về cả kỹ thuật và ý thức",
+                "B. Chỉ cần học cá nhân thật tốt, không cần quan tâm đến việc chia sẻ hay xây dựng cộng đồng",
+                "C. Không cần tham gia tổ chức tập thể nào vì thời đại cá nhân hóa, mỗi người tự lo cho bản thân",
+                "D. Chỉ nên tập trung thi đua cá nhân để đạt thành tích cao, không nên 'lãng phí' thời gian cho hoạt động tập thể"
+            ],
+            "correct": 0,
+            "explanation": "Lênin: GCCN cần tổ chức và giáo dục lẫn nhau. SV FPT nên: lập CLB AI, Blockchain, IoT; tổ chức workshop; đóng góp open source; xây dựng cộng đồng tech VN - đó là thực hành 'đoàn kết giai cấp' thời đại số, không bị phân tán cá nhân hóa."
+        },
+        {
+            "question": "Mác phê phán 'giáo dục tư sản' chỉ đào tạo công nhân thành 'máy móc sống' phục vụ sản xuất. Đại học FPT cần định hướng giáo dục như thế nào?",
+            "options": [
+                "A. Đào tạo toàn diện: kỹ thuật + triết học + tư duy phản biện + đạo đức AI + trách nhiệm xã hội + ý thức giai cấp",
+                "B. Chỉ dạy code theo đúng yêu cầu doanh nghiệp để sinh viên ra trường làm việc ngay được",
+                "C. Chỉ cần tập trung vào lý thuyết sách vở, không cần quan tâm đến kỹ năng thực hành",
+                "D. Không cần thay đổi gì, cứ tiếp tục mô hình đào tạo hiện tại vì đã phù hợp với thị trường"
+            ],
+            "correct": 0,
+            "explanation": "Mác: giáo dục tư bản tạo 'người máy'. Giáo dục XHCN phải tạo 'con người toàn diện'. ĐH FPT cần: dạy code + ethics in AI + critical thinking + trách nhiệm xã hội + ý thức giai cấp - tạo GCCN trí thức tự giác, không phải 'coding robot' vô cảm."
+        },
+        {
+            "question": "Lênin: 'Học, học nữa, học mãi' gắn với xây dựng CNXH. Sinh viên FPT học liên tục công nghệ mới có nghĩa là gì về mặt sứ mệnh?",
+            "options": [
+                "A. Học để nắm công nghệ mới, góp phần xây dựng nền kinh tế số độc lập tự chủ cho VN, giảm phụ thuộc Big Tech nước ngoài",
+                "B. Học để thi đua với bạn bè và đồng nghiệp, chứng tỏ mình giỏi hơn người khác trong lĩnh vực công nghệ",
+                "C. Học để có cơ hội di cư sang nước ngoài làm việc với mức lương cao và môi trường tốt hơn",
+                "D. Học không có mục đích rõ ràng, chỉ vì áp lực từ công việc và xu hướng chung của ngành"
+            ],
+            "correct": 0,
+            "explanation": "Lênin nói học gắn với xây dựng đất nước. SV FPT học AI, Cloud, Blockchain... không phải để 'brain drain' mà để: xây dựng nền tảng số VN, giảm phụ thuộc Big Tech, phát triển Make in Vietnam - đó là thực hiện 'học vì cách mạng' trong kỷ nguyên số."
+        },
+        {
+            "question": "Trong 'Gia đình, tư hữu và nhà nước', Engels phân tích giáo dục mang tính giai cấp. Tại sao SV FPT cần học cả kỹ thuật lẫn Mác-Lênin?",
+            "options": [
+                "A. Kỹ thuật giúp làm chủ TLSX; Mác-Lênin giúp nhận thức vai trò giai cấp → Kết hợp tạo kỹ sư tự giác phục vụ nhân dân",
+                "B. Vì chương trình đào tạo bắt buộc phải học cả hai, không có lý do đặc biệt nào khác",
+                "C. Không cần học Mác-Lênin, chỉ cần tập trung vào kỹ thuật để có năng lực làm việc tốt",
+                "D. Không cần học kỹ thuật quá sâu, chỉ cần hiểu lý thuyết Mác-Lênin là đủ để có nhận thức đúng"
+            ],
+            "correct": 0,
+            "explanation": "Engels: giáo dục phản ánh giai cấp. Chỉ học kỹ thuật = trở thành 'công cụ' không biết phục vụ ai. Học cả Mác-Lênin = nhận thức: mình là GCCN trí thức VN, code vì 100 triệu dân, không chỉ vì lương → Kỹ sư AI tự giác, có sứ mệnh rõ ràng."
+        },
+        {
+            "question": "Trong kinh tế thị trường định hướng XHCN, kỹ sư CNTT cần hiểu gì về 'thị trường' và 'định hướng XHCN'?",
+            "options": [
+                "A. Tham gia thị trường để phát triển nhưng phải có định hướng: công nghệ phục vụ đa số nhân dân, không chỉ vì lợi nhuận Big Tech",
+                "B. Thị trường tự do hoàn toàn không cần định hướng, ai làm giỏi kiếm được tiền là thành công",
+                "C. Định hướng XHCN nghĩa là Nhà nước quy định mọi thứ, không có tự do phát triển cá nhân",
+                "D. Hai khái niệm mâu thuẫn nhau không thể kết hợp, phải chọn một trong hai con đường"
+            ],
+            "correct": 0,
+            "explanation": "VN: thị trường ĐỊNH HƯỚNG XHCN. Kỹ sư có thể làm việc cho DN tư nhân, startup, kiếm thu nhập cao NHƯNG phải hướng về: giải quyết vấn đề VN, công nghệ cho đại đa số, không chỉ elite - cân bằng hiệu quả kinh tế với công bằng xã hội."
+        },
+        {
+            "question": "Chương trình đào tạo tại Google, Meta có khóa học về 'Responsible AI', 'Ethics in Tech'. Điều này mâu thuẫn với bản chất tư bản như thế nào?",
+            "options": [
+                "A. Mâu thuẫn: dạy ethics nhưng mục tiêu cuối cùng vẫn là tối đa lợi nhuận, AI vẫn phục vụ bóc lột - ethics chỉ là 'bao bì'",
+                "B. Không mâu thuẫn vì các công ty này thực sự quan tâm đến đạo đức và trách nhiệm xã hội",
+                "C. Hoàn toàn tốt và đáng học tập vì đây là mô hình kinh doanh có trách nhiệm thời hiện đại",
+                "D. Không có vấn đề gì với việc dạy đạo đức trong công ty tư bản, đây là xu hướng tích cực"
+            ],
+            "correct": 0,
+            "explanation": "Mác: bản chất TBCN là tối đa lợi nhuận. Big Tech dạy ethics để tránh scandal, luật pháp, tẩy chay NHƯNG AI vẫn phục vụ bóc lột (thu thập data, target ads, thao túng hành vi). 'Responsible AI' tư bản ≠ AI vì nhân dân - cần phân biệt rõ."
+        }
+    ],
+    "social": [
+        {
+            "question": "Kinh tế nền tảng (Grab, Shopee, Baemin) tạo hàng triệu việc làm nhưng shipper, driver không có BHXH, hợp đồng lao động, bị thuật toán điều khiển. Theo Mác, đây là hiện tượng gì?",
+            "options": [
+                "A. 'Vô sản hóa' mới - công nhân mất quyền lợi cơ bản đã đấu tranh được, bị bóc lột kiểu mới qua thuật toán vô hình",
+                "B. Kinh tế tự do phát triển tốt, tạo nhiều việc làm linh hoạt cho người lao động tự chủ thời gian",
+                "C. Không có vấn đề gì vì người lao động tự nguyện tham gia, không ai ép buộc họ phải làm",
+                "D. Đây là mô hình kinh doanh tiên tiến, người lao động được hưởng lợi từ công nghệ hiện đại"
+            ],
+            "correct": 0,
+            "explanation": "Mác: tư bản luôn tìm cách tăng bóc lột. Platform economy = bóc lột 2.0: gọi công nhân là 'đối tác' để né BHXH, thuật toán kiểm soát mọi hành vi, không có quyền công đoàn. GCCN VN cần đấu tranh cho 'quyền lao động số' mới."
+        },
+        {
+            "question": "Mác phân tích về 'quân dự bị công nghiệp' (reserve army of labor) - người thất nghiệp giúp tư bản ép lương. AI tạo thất nghiệp có vai trò tương tự không?",
+            "options": [
+                "A. Giống: AI thay thế hàng loạt lao động → tăng thất nghiệp cấu trúc → DN đe dọa 'không làm thì AI thay' → ép lương người còn lại",
+                "B. Không giống vì AI là công nghệ hoàn toàn mới, không thể so sánh với máy móc thời Mác nghiên cứu",
+                "C. AI không gây thất nghiệp thực sự mà chỉ chuyển đổi việc làm sang lĩnh vực khác cao cấp hơn",
+                "D. AI chỉ tạo ra việc làm mới mà không thay thế việc làm cũ nên không có vấn đề về thất nghiệp"
+            ],
+            "correct": 0,
+            "explanation": "Mác: tư bản dùng 'quân dự bị thất nghiệp' để ép lương. Hiện nay: AI → nhiều job biến mất → 'người dư thừa' → DN đe dọa thay thế bằng AI → lương đình trệ dù năng suất tăng. Đây là mâu thuẫn tư bản cũ tái hiện ở dạng công nghệ cao."
+        },
+        {
+            "question": "Startup công nghệ VN (VNG, Base, Tiki) được coi là 'tạo cơ hội cho GCCN trí thức', nhiều kỹ sư trẻ thành công. Theo Mác, cần phân tích như thế nào?",
+            "options": [
+                "A. Vẫn là quan hệ tư bản có bóc lột nhưng tạo không gian GCCN làm chủ công nghệ - cần định hướng XHCN rõ ràng hơn",
+                "B. Startup = CNXH tự nhiên vì mọi người cùng làm việc bình đẳng và chia sẻ lợi nhuận công bằng",
+                "C. Startup = tư bản xấu xa hơn DN truyền thống vì ép người lao động làm việc quá tải không lương OT",
+                "D. Không liên quan gì đến phân tích giai cấp vì đây là mô hình kinh doanh mới hoàn toàn"
+            ],
+            "correct": 0,
+            "explanation": "Mác không phủ định công nghiệp tư bản tiến bộ. Startup VN: tốt vì tạo việc làm, phát triển công nghệ gốc NHƯNG vẫn có bóc lột (giá trị thặng dư), burnout, bất bình đẳng. Cần định hướng: startup vì cộng đồng, không chỉ vì exit/IPO tỷ USD."
+        },
+        {
+            "question": "Chuyển đổi số làm năng suất lao động tăng vọt (1 người làm việc 10 người) nhưng lương không tăng tương ứng. Mác giải thích ra sao?",
+            "options": [
+                "A. Lao động tạo giá trị mới từ công nghệ nhưng giá trị thặng dư khổng lồ đó bị chủ tư bản chiếm đoạt hoàn toàn, công nhân chỉ nhận một phần nhỏ",
+                "B. Đó là điều bình thường trong kinh tế thị trường, lương được quyết định bởi cung cầu lao động",
+                "C. Người lao động đã được hưởng lợi đầy đủ thông qua môi trường làm việc tốt và phúc lợi khác",
+                "D. Công nghệ mới tạo ra giá trị chứ không phải lao động nên lương không cần tăng theo năng suất"
+            ],
+            "correct": 0,
+            "explanation": "Mác: năng suất tăng → giá trị thặng dư tăng → về túi tư bản. VD: AI giúp 1 coder làm việc 10 người nhưng lương không tăng gấp 10 → phần chênh lệch = thặng dư bị chiếm. Đây là mâu thuẫn cơ bản mà CĐS không tự giải quyết trong chế độ TBCN."
+        },
+        {
+            "question": "Freelancer IT, Remote worker được coi là 'tự do khỏi sếp, khỏi văn phòng'. Theo Mác về 'tự do hình thức vs tự do thực chất', đánh giá thế nào?",
+            "options": [
+                "A. Tự do hình thức (chọn giờ làm, địa điểm) nhưng vẫn phụ thuộc kinh tế vào client/platform, chưa đạt tự do thực chất về TLSX",
+                "B. Hoàn toàn tự do vì họ tự chủ hoàn toàn thời gian, công việc và thu nhập của bản thân",
+                "C. Không tự do gì cả, bị ràng buộc nhiều hơn cả nhân viên chính thức do không có đảm bảo",
+                "D. Đây là giai cấp tư sản nhỏ vì tự kinh doanh dịch vụ của mình và không làm thuê cho ai"
+            ],
+            "correct": 0,
+            "explanation": "Mác phân biệt: 'Tự do bán sức lao động' ≠ tự do thực sự. Freelancer tự do chọn dự án NHƯNG vẫn phải bán lao động để sống, phụ thuộc client/Upwork (lấy 20% phí), không có BHXH. Tự do thực chất = làm chủ TLSX, không phụ thuộc kinh tế."
+        },
+        {
+            "question": "Xu hướng 'Work-Life Balance' ở Big Tech phương Tây vs 'văn hóa 996' (9h sáng-9h tối, 6 ngày/tuần) ở Trung Quốc, Hàn Quốc. Phân tích giai cấp?",
+            "options": [
+                "A. Cả hai đều là quan hệ bóc lột tư bản, chỉ khác mức độ công khai và cách thức che giấu bản chất chiếm đoạt giá trị thặng dư",
+                "B. Đây chỉ là sự khác biệt về văn hóa làm việc giữa các quốc gia, không liên quan đến bóc lột giai cấp",
+                "C. Văn hóa 996 tốt hơn vì giúp phát triển kinh tế nhanh, công nhân sẵn sàng hi sinh vì tiến bộ",
+                "D. Work-Life Balance là mô hình XHCN thực sự, trong khi 996 là TBCN tàn bạo cần loại bỏ"
+            ],
+            "correct": 0,
+            "explanation": "Mác: bản chất không đổi, hình thức khác. Big Tech: WLB, free food, game room... để tăng năng suất, giữ nhân tài → vẫn chiếm giá trị thặng dư khổng lồ. 996: bóc lột trắng trợn. GCCN cần đấu tranh cho quyền lợi THỰC CHẤT, không phải hình thức bề ngoài."
+        },
+        {
+            "question": "Social media influencer (có 100k-1M followers) sống bằng content creation, kiếm tiền từ brand deals, YouTube ads. Theo Mác, họ thuộc giai cấp nào?",
+            "options": [
+                "A. Phụ thuộc quy mô: influencer nhỏ/vừa sống bằng lao động sáng tạo, phụ thuộc platform (lấy 30-50%) → GCCN trí thức mới; influencer lớn có team, agency → tiểu tư sản",
+                "B. Họ là giai cấp tư sản số mới vì kiếm tiền từ tài sản vô hình là danh tiếng và lượng người theo dõi",
+                "C. Không thuộc giai cấp nào vì đây là nghề nghiệp mới hoàn toàn, không nằm trong phân loại của Mác",
+                "D. Thuộc tầng lớp thượng lưu mới vì thu nhập cao và có ảnh hưởng xã hội lớn đến công chúng"
+            ],
+            "correct": 0,
+            "explanation": "Theo Mác, xét quan hệ với TLSX: Influencer nhỏ/vừa sống bằng lao động sáng tạo, phụ thuộc YouTube/TikTok (platform lấy 30-50% + kiểm soát thuật toán) → GCCN mới. Influencer lớn có team, agency, sở hữu IP → tiểu tư sản. Cần phân tích cụ thể từng trường hợp."
+        },
+        {
+            "question": "Metaverse, NFT, Web3 được PR là 'dân chủ hóa internet', 'quyền lực về tay người dùng'. Mác sẽ phân tích như thế nào?",
+            "options": [
+                "A. Công nghệ có tiềm năng tiến bộ nhưng trong khuôn khổ tư bản vẫn phục vụ lợi nhuận, chưa thay đổi quan hệ sản xuất bóc lột",
+                "B. Đây chính là tương lai CNXH tự nhiên, sẽ tự động thay thế chủ nghĩa tư bản mà không cần cách mạng",
+                "C. Hoàn toàn xấu và cần phải chống lại vì chỉ là công cụ lừa đảo tài chính của tư bản",
+                "D. Không liên quan gì đến giai cấp hay CNXH, chỉ là xu hướng công nghệ tự nhiên phát triển"
+            ],
+            "correct": 0,
+            "explanation": "Mác: tiến bộ kỹ thuật ≠ tiến bộ xã hội nếu quan hệ sản xuất không đổi. Web3 hứa phi tập trung NHƯNG hạ tầng vẫn do Big Tech, Meta kiểm soát, NFT thành công cụ đầu cơ. Cần cách mạng quan hệ sản xuất mới có dân chủ thực sự, không chỉ slogan marketing."
+        },
+        {
+            "question": "Digital divide (khoảng cách số) giữa thành thị - nông thôn, giàu - nghèo, trẻ - già ngày càng lớn. Đây là biểu hiện mâu thuẫn gì?",
+            "options": [
+                "A. Mâu thuẫn giai cấp thời đại số: người giàu làm chủ AI, dữ liệu, internet cao tốc → giàu thêm; người nghèo bị loại trừ → nghèo thêm",
+                "B. Chỉ là mâu thuẫn kỹ thuật tạm thời, sẽ tự giải quyết khi công nghệ phổ cập rộng rãi hơn",
+                "C. Không có mâu thuẫn thực sự vì mọi người đều có cơ hội tiếp cận công nghệ nếu họ muốn",
+                "D. Đây chỉ là mâu thuẫn địa lý do sự phát triển không đồng đều, không phải vấn đề giai cấp"
+            ],
+            "correct": 0,
+            "explanation": "Mác: mâu thuẫn giai cấp là mâu thuẫn cơ bản. Digital divide = hình thức mới: giai cấp trên làm chủ AI, dữ liệu, internet 5G → tạo của cải từ đó; giai cấp dưới không tiếp cận → mất cơ hội. Đây là bất bình đẳng mới cần giải quyết bằng chính sách XHCN can thiệp mạnh."
+        },
+        {
+            "question": "Dữ liệu cá nhân (data) được gọi là 'dầu mỏ mới' của thế kỷ 21. Theo Mác về sở hữu tư liệu sản xuất, vấn đề là gì?",
+            "options": [
+                "A. Dữ liệu do người dùng tạo ra bằng hành vi hàng ngày nhưng Big Tech chiếm đoạt, khai thác kiếm tỉ USD - dạng bóc lột vô hình mới",
+                "B. Không có vấn đề vì người dùng được dùng dịch vụ miễn phí như Facebook, Google, đây là trao đổi công bằng",
+                "C. Người dùng đã được trả công xứng đáng thông qua các dịch vụ tiện ích mà họ nhận được miễn phí",
+                "D. Dữ liệu không quan trọng và không có giá trị kinh tế thực sự nên không cần bận tâm về quyền sở hữu"
+            ],
+            "correct": 0,
+            "explanation": "Mác: ai tạo ra của cải? Người lao động. Ai hưởng? Chủ TLSX. Data: user tạo bằng mọi click, search, like NHƯNG Facebook, Google sở hữu, phân tích, bán quảng cáo → tỉ USD. User = 'công nhân dữ liệu' không lương. Cần luật: data thuộc người tạo ra."
+        },
+        {
+            "question": "Thuật toán (algorithm) AI quyết định ai được vay tiền, ai được tuyển dụng, ai bị cảnh sát giám sát. Mác về 'ý thức hệ giai cấp' sẽ nói gì?",
+            "options": [
+                "A. Thuật toán phản ánh lợi ích và định kiến giai cấp của người thiết kế và chủ sở hữu, không có gì là trung lập khách quan cả",
+                "B. Thuật toán hoàn toàn khách quan vì dựa trên dữ liệu và toán học, không có thành kiến con người",
+                "C. Thuật toán không liên quan gì đến giai cấp vì đây là vấn đề kỹ thuật thuần túy, không phải chính trị",
+                "D. Thuật toán trung lập hoàn toàn, mọi vấn đề chỉ do dữ liệu đầu vào có vấn đề chứ không phải bản thân thuật toán"
+            ],
+            "correct": 0,
+            "explanation": "Mác: 'ý thức hình thái phản ánh lợi ích giai cấp'. Thuật toán do con người thiết kế → mang lợi ích giai cấp: AI tuyển dụng phân biệt (Amazon), AI cho vay từ chối người nghèo (credit scoring), AI cảnh sát giám sát người da màu. 'Khách quan' là ảo tưởng - cần 'AI for the people'."
+        },
+        {
+            "question": "Automation (tự động hóa) thay thế hàng triệu công việc lặp lại. Lời giải theo hướng XHCN thay vì TBCN là gì?",
+            "options": [
+                "A. Giảm giờ làm (20-30h/tuần), phân phối lại của cải do robot/AI tạo ra cho toàn xã hội qua thuế và phúc lợi, biến tự động hóa thành giải phóng lao động",
+                "B. Chấp nhận thất nghiệp hàng loạt là hệ quả tất yếu không thể tránh khỏi của tiến bộ công nghệ",
+                "C. Cần cấm hoàn toàn tự động hóa để bảo vệ việc làm truyền thống cho người lao động",
+                "D. Không có giải pháp thực sự, chỉ để thị trường tự điều chỉnh theo quy luật tự nhiên"
+            ],
+            "correct": 0,
+            "explanation": "Mác: tự động hóa trong TBCN = thất nghiệp bi thảm; trong XHCN = giải phóng con người. Giải pháp: giảm giờ làm (20h/tuần), UBI (Universal Basic Income), thuế robot, tái phân phối của cải từ AI. Như thế mới thực hiện lý tưởng 'công nghệ giải phóng con người' thực sự."
+        },
+        {
+            "question": "Gig economy (kinh tế việc làm  nhỏ lẻ) qua app: GrabFood, Shopee, Baemin tạo 'tự do' cho shipper. Thực chất quan hệ lao động là gì?",
+            "options": [
+                "A. 'Tự do' hình thức nhưng bị thuật toán kiểm soát từng phút, không BHXH, không quyền công đoàn - bóc lột tàn khốc hơn nhà máy truyền thống",
+                "B. Hoàn toàn tự do và công bằng vì shipper tự chọn giờ làm, nhận hay từ chối đơn hàng theo ý muốn",
+                "C. Đây là mô hình kinh doanh tiên tiến, linh hoạt tốt hơn nhiều so với lao động truyền thống cứng nhắc",
+                "D. Không có vấn đề về quyền lợi vì thu nhập của shipper có thể cao hơn cả công nhân văn phòng"
+            ],
+            "correct": 0,
+            "explanation": "Gig economy = bóc lột 3.0: Shipper 'tự do' chọn giờ NHƯNG (1) thuật toán kiểm soát mọi di chuyển, phạt nếu hủy đơn, (2) không BHXH, phép ốm, (3) không có công đoàn bảo vệ. Mác: đây là 'tự do' trong nghèo khổ - tệ hơn công nhân nhà máy thế kỷ 19."
+        },
+        {
+            "question": "E-sport (thể thao điện tử) professional gamer kiếm tỉ đồng/năm, được xem như 'sao'. Họ thuộc giai cấp nào theo Mác?",
+            "options": [
+                "A. Phân tích cụ thể: Gamer trẻ trong team → GCCN (bán kỹ năng); Gamer nổi tiếng có team/brand → tiểu tư sản; Top gamer sở hữu tổ chức → tư sản nhỏ",
+                "B. Toàn bộ đều là giai cấp tư sản mới vì họ kiếm tiền từ tài sản trí tuệ và hình ảnh cá nhân",
+                "C. Không thuộc bất kỳ giai cấp nào vì e-sport là lĩnh vực giải trí, không phải sản xuất vật chất",
+                "D. Tất cả đều là GCCN dù thu nhập cao vì họ vẫn phải thi đấu và bán sức lao động"
+            ],
+            "correct": 0,
+            "explanation": "Mác: xét quan hệ với TLSX. Gamer trẻ trong team: bán kỹ năng chơi game, team/brand lấy phần lớn tiền thưởng → GCCN. Gamer nổi sở hữu stream channel, brand deal → tiểu tư sản. Top gamer có tổ chức, team trẻ làm thuê → tư sản nhỏ. Biên giới mờ, cần phân tích từng trường hợp."
+        }
+    ],
+    "policy": [
+        {
+            "question": "Đảng Cộng sản Việt Nam khẳng định GCCN VN là giai cấp lãnh đạo xã hội XHCN. Trong bối cảnh kinh tế số, vai trò lãnh đạo này thể hiện như thế nào?",
+            "options": [
+                "A. GCCN trí thức CNTT/AI là lực lượng nòng cốt tiên phong xây dựng nền kinh tế số độc lập, tự chủ, chủ quyền số quốc gia",
+                "B. Chỉ là khẩu hiệu chính trị không còn phù hợp với thực tế xã hội thị trường hiện đại",
+                "C. Vai trò lãnh đạo không còn đúng nữa vì hiện nay giai cấp tư sản công nghệ đã thay thế GCCN",
+                "D. Chỉ công nhân nhà máy truyền thống mới là GCCN lãnh đạo, lập trình viên không thuộc diện này"
+            ],
+            "correct": 0,
+            "explanation": "Đại hội XIII: Xây dựng GCCN hiện đại. GCCN trí thức CNTT là nòng cốt: phát triển Make in Vietnam digital products (Zalo, VNPay, Viettel 5G...), giảm phụ thuộc Google/Meta, xây chủ quyền số - đó là thực hiện vai trò lãnh đạo về kinh tế-xã hội."
+        },
+        {
+            "question": "Công đoàn truyền thống bảo vệ công nhân nhà máy qua đình công, đàm phán tập thể. Công đoàn số cần làm gì cho lập trình viên, freelancer, gig worker?",
+            "options": [
+                "A. Đàm phán giờ làm hợp lý (chống 996, crunch time), chống OT không lương, bảo vệ remote worker, gig worker không HĐ chính thức, đấu tranh quyền 'offline'",
+                "B. Không cần công đoàn số vì lập trình viên lương cao, tự lo được cho bản thân, không cần tổ chức bảo vệ",
+                "C. Công đoàn chỉ nên thu phí hàng tháng và tổ chức các hoạt động văn hóa, không nên can thiệp vào quan hệ lao động",
+                "D. Không cần thay đổi gì, tiếp tục mô hình công đoàn truyền thống là đủ cho mọi ngành nghề"
+            ],
+            "correct": 0,
+            "explanation": "Lênin: Công đoàn là trường học CNXH. Công đoàn số VN cần: chống crunch culture (OT 996 kiểu Jack Ma), đàm phán WFH policy, bảo vệ freelancer/gig worker không HĐ, đấu tranh quyền 'được offline' - đây là 'quyền lao động số' thế hệ mới, vượt qua công đoàn truyền thống."
+        },
+        {
+            "question": "Chính sách 'Make in Vietnam' trong công nghệ số (Zalo, VNPay, Viettel 5G) hướng đến mục tiêu chiến lược gì theo tư tưởng Hồ Chí Minh về độc lập dân tộc?",
+            "options": [
+                "A. Tự chủ công nghệ, giảm phụ thuộc nước ngoài về hạ tầng số, dữ liệu, nền tảng - nền tảng cho độc lập, tự chủ kinh tế thực sự",
+                "B. Chỉ để xuất khẩu sản phẩm công nghệ ra nước ngoài kiếm ngoại tệ, tăng GDP quốc gia",
+                "C. Là chính sách bảo hộ lạc hậu, cản trở hội nhập quốc tế và sự phát triển của thị trường tự do",
+                "D. Không quan trọng vì công nghệ là toàn cầu, VN nên tập trung dùng sản phẩm nước ngoài tốt hơn"
+            ],
+            "correct": 0,
+            "explanation": "Hồ Chí Minh: 'Độc lập dân tộc gắn liền với CNXH'. Tự chủ công nghệ = độc lập kinh tế thời đại số. Make in Vietnam (VOS, Zalo, VNPay...) = giảm phụ thuộc Google, AWS, Visa/Mastercard → chủ quyền số → độc lập thực sự. Đây là con đường tự lực cánh sinh của Hồ Chí Minh trong kỷ nguyên 4.0."
+        },
+        {
+            "question": "Chiến lược chuyển đổi số quốc gia đến 2025, 2030 với 3 trụ cột: Chính phủ số, Kinh tế số, Xã hội số. Theo Mác, ai hưởng lợi nếu không có định hướng XHCN?",
+            "options": [
+                "A. Nguy cơ: tập đoàn công nghệ lớn (Big Tech, DN tư nhân) chiếm lợi, khoảng cách giàu-nghèo số tăng - cần chính sách phân phối lại rõ ràng",
+                "B. Toàn dân đều hưởng lợi công bằng vì CĐS mang lại lợi ích cho mọi người trong xã hội",
+                "C. Không ai hưởng lợi thực sự vì CĐS chỉ là khẩu hiệu chính trị không có giá trị thực tế",
+                "D. Chỉ nhà nước hưởng lợi thông qua việc kiểm soát dữ liệu và thông tin của người dân"
+            ],
+            "correct": 0,
+            "explanation": "Mác: LLSX tiến bộ nhưng ai hưởng tùy quan hệ SX. CĐS không định hướng XHCN → Big Tech độc quyền (Grab, Shopee), nông dân/lao động phổ thông bị bỏ lại. VN cần: thuế công nghệ, tái phân phối, đầu tư CĐS nông thôn, truy cập internet giá rẻ - đảm bảo 'CĐS vì con người'."
+        },
+        {
+            "question": "Luật An toàn thông tin mạng, Luật An ninh mạng yêu cầu dữ liệu người VN phải lưu trong nước. Ý nghĩa chiến lược từ góc độ chủ quyền quốc gia?",
+            "options": [
+                "A. Bảo vệ chủ quyền số quốc gia, ngăn nước ngoài kiểm soát dữ liệu 100 triệu dân, hạ tầng mạng - điều kiện độc lập thời đại số",
+                "B. Chỉ là hạn chế tự do internet, cản trở phát triển công nghệ và đầu tư nước ngoài vào VN",
+                "C. Không cần thiết vì an ninh mạng không quan trọng bằng phát triển kinh tế nhanh",
+                "D. Chỉ nhằm mục đích kiểm duyệt thông tin, không có lợi ích gì cho an ninh quốc gia thực sự"
+            ],
+            "correct": 0,
+            "explanation": "Lênin: Chủ quyền là điều kiện tiên quyết cho cách mạng. Thời đại số: data = chủ quyền mới. Luật đảm bảo: dữ liệu 100 triệu người VN lưu trong nước, hạ tầng do VN kiểm soát → tránh gián điệp, can thiệp như Snowden폭lộ. Đây là 'chủ quyền số' - độc lập dân tộc thời 4.0."
+        },
+        {
+            "question": "Đề án 1 triệu nhân lực số, 50.000 chuyên gia AI, 100.000 kỹ sư bán dẫn. Ý nghĩa chiến lược từ góc độ xây dựng giai cấp công nhân?",
+            "options": [
+                "A. Xây dựng GCCN trí thức hùng mạnh hàng triệu người - lực lượng nòng cốt hiện thực hóa công nghiệp hóa, hiện đại hóa định hướng XHCN",
+                "B. Chỉ để có việc làm cho thanh niên, giảm thất nghiệp, không có ý nghĩa chiến lược đặc biệt",
+                "C. Lãng phí ngân sách nhà nước vào đào tạo quá nhiều, thị trường không hấp thụ hết",
+                "D. Không liên quan gì đến GCCN vì đây là tầng lớp trí thức, không phải công nhân truyền thống"
+            ],
+            "correct": 0,
+            "explanation": "Lênin: CNXH = quyền lực Xô viết + điện khí hóa toàn quốc. Thời đại mới: CNXH VN = lãnh đạo Đảng + kỹ thuật số hóa toàn diện. 1 triệu nhân lực số = xây GCCN trí thức tiên tiến, đông đảo → lực lượng lãnh đạo xã hội theo định hướng XHCN - then chốt CNH, HĐH."
+        },
+        {
+            "question": "Blockchain, AI có thể tạo minh bạch trong quản lý nhà nước (ngân sách công khai, giám sát tham nhũng). Theo Lênin về 'Nhà nước và Cách mạng', ý nghĩa?",
+            "options": [
+                "A. Tăng cường quyền lực nhân dân giám sát nhà nước trực tiếp - bước tiến tới lý tưởng 'nhà nước bán chính quyền', dần tới 'tự quản xã hội'",
+                "B. Công nghệ không liên quan gì đến vấn đề chính trị, nhà nước nên tách biệt với công nghệ",
+                "C. Chỉ làm tăng cường quyền lực và sự kiểm soát của bộ máy nhà nước đối với xã hội",
+                "D. Không có ý nghĩa gì đặc biệt, chỉ là ứng dụng công nghệ bình thường trong quản lý hành chính"
+            ],
+            "correct": 0,
+            "explanation": "Lênin: Nhà nước XHCN phải dân chủ tối đa, nhân dân giám sát quyền lực. Blockchain làm minh bạch ngân sách từng đồng, AI phát hiện tham nhũng tự động, E-Government tạo tương tác 2 chiều → dân giám sát trực tiếp - đây là ứng dụng công nghệ cho dân chủ XHCN, tiến tới 'tự quản'."
+        },
+        {
+            "question": "Chính sách thuế đối với Google, Facebook, Meta hoạt động tại VN (kiếm tỉ USD/năm nhưng trốn thuế). Giải pháp theo nguyên tắc XHCN?",
+            "options": [
+                "A. Đánh thuế doanh thu 5-7%, thuế dữ liệu, rồi dùng nguồn thu này xây hạ tầng số cho vùng sâu, đào tạo miễn phí - tái phân phối của cải số",
+                "B. Không nên đánh thuế vì sẽ làm các công ty rời khỏi VN, mất đi công nghệ và đầu tư",
+                "C. Cấm hoàn toàn các công ty nước ngoài hoạt động để bảo vệ doanh nghiệp trong nước",
+                "D. Để thuế suất 0% để thu hút đầu tư nước ngoài và phát triển kinh tế nhanh nhất"
+            ],
+            "correct": 0,
+            "explanation": "Mác: Tư bản đa quốc gia lợi dụng lỗ hổng luật để tránh thuế. Big Tech kiếm tỉ USD từ VN nhưng trốn thuế hầu hết. VN cần: thuế doanh thu (5-7%), thuế dữ liệu, rồi dùng tiền xây hạ tầng số nông thôn, học bổng AI cho con nhà nghèo - 'tái phân phối của cải số' theo tinh thần XHCN."
+        },
+        {
+            "question": "Mô hình 'Nhà nước - Doanh nghiệp - Học viện - Cộng đồng' (Quadruple Helix) trong phát triển công nghệ số VN. Vai trò Nhà nước XHCN?",
+            "options": [
+                "A. Định hướng chiến lược quốc gia, đầu tư R&D nền tảng, ban hành chính sách bảo vệ lợi ích quốc gia và người lao động, không để tự do thị trường",
+                "B. Để hoàn toàn cho thị trường tự do điều chỉnh, Nhà nước không can thiệp vào kinh tế",
+                "C. Nhà nước chỉ nên làm luật và thu thuế, không nên tham gia vào phát triển công nghệ",
+                "D. Chỉ hỗ trợ doanh nghiệp nhà nước, không cần quan tâm đến khu vực tư nhân và cộng đồng"
+            ],
+            "correct": 0,
+            "explanation": "Lênin: XHCN cần kế hoạch hóa có định hướng. Nhà nước VN phải: định hướng Make in Vietnam (không để Big Tech ngoại thống trị), đầu tư R&D nền tảng (AI, chip, quantum, 6G), bảo vệ GCCN (luật lao động số) - không thể để 'bàn tay vô hình' thị trường tư bản."
+        },
+        {
+            "question": "Đảng xác định 'Công nghiệp hóa - hiện đại hóa gắn với phát triển kinh tế tri thức'. Ý nghĩa đối với sinh viên FPT khi ra trường?",
+            "options": [
+                "A. Tri thức = TLSX quan trọng nhất → SV FPT nắm tri thức = chủ nhân tương lai đất nước, có trách nhiệm xây dựng nền kinh tế tri thức VN",
+                "B. Chỉ là khẩu hiệu chính trị không liên quan gì đến cuộc sống và công việc thực tế của sinh viên",
+                "C. Không liên quan đến sinh viên CNTT vì đây là định hướng chỉ dành cho nhà khoa học và nghiên cứu",
+                "D. Chỉ dành cho những người muốn làm việc trong khu vực nhà nước, không áp dụng cho khu vực tư nhân"
+            ],
+            "correct": 0,
+            "explanation": "Mác: TLSX quyết định mọi thứ trong xã hội. Thời đại mới: tri thức, công nghệ = TLSX số 1. Đường lối Đảng: phát triển kinh tế tri thức → ai làm chủ tri thức (SV công nghệ) là giai cấp tiên tiến → SV FPT: không chỉ code thuê mà XÂY nền kinh tế tri thức VN độc lập."
+        },
+        {
+            "question": "'Chuyển đổi số vì con người' - khẩu hiệu Chính phủ số VN. Thực hiện đúng theo định hướng XHCN nghĩa là gì cụ thể?",
+            "options": [
+                "A. Ưu tiên người dân lao động: internet vùng sâu giá rẻ/miễn phí, app y tế/giáo dục công, dữ liệu thuộc về dân, không để Big Tech bóc lột",
+                "B. CĐS chủ yếu để tăng lợi nhuận cho các doanh nghiệp công nghệ lớn và thu hút đầu tư nước ngoài",
+                "C. CĐS để tăng cường kiểm soát và quản lý người dân một cách chặt chẽ hơn",
+                "D. Không quan trọng lắm, chỉ cần có công nghệ hiện đại là đủ, không cần quan tâm định hướng"
+            ],
+            "correct": 0,
+            "explanation": "Mác: CNXH đặt lợi ích người lao động lên trên. CĐS XHCN VN = ưu tiên dân: internet vùng sâu miễn phí/rẻ (không để Viettel/VNPT độc quyền giá cao), app y tế/giáo dục công cộng, data thuộc dân. Khác TBCN: CĐS chỉ vì profit. VN đang thí điểm 'CĐS vì 100 triệu người'."
+        },
+        {
+            "question": "Chính sách thu hút nhân tài công nghệ (Việt kiều chuyên gia, chuyên gia nước ngoài về VN). Mục tiêu chiến lược dài hạn là gì?",
+            "options": [
+                "A. Nhanh chóng tiếp thu công nghệ tiên tiến, song song đào tạo 10 triệu công nhân trí thức VN, hình thành đội ngũ GCCN trí thức hùng mạnh tự chủ hoàn toàn sau 20 năm",
+                "B. Chỉ để có người làm trong ngắn hạn, lấp khoảng trống thiếu hụt nhân lực tạm thời",
+                "C. Thay thế hoàn toàn người VN bằng chuyên gia nước ngoài giỏi hơn để phát triển nhanh",
+                "D. Không cần thiết vì VN có đủ nhân lực, không nên phụ thuộc vào chuyên gia nước ngoài"
+            ],
+            "correct": 0,
+            "explanation": "Hồ Chí Minh: 'Đoàn kết dân tộc, học hỏi quốc tế'. Thu hút chuyên gia = học nhanh, song song đào tạo hàng triệu người trẻ VN (1 triệu coders, 50k AI) → mục tiêu: 10-20 năm tự chủ 100%, GCCN trí thức VN đứng đầu khu vực. Đây là chiến lược 'học tập - vượt qua' kinh điển của Hồ Chí Minh."
+        },
+        {
+            "question": "Chính sách phát triển bán dẫn, chip quốc gia khi VN chưa có nền tảng. Tại sao vẫn phải đầu tư dù tốn kém và rủi ro cao?",
+            "options": [
+                "A. Chip là 'trái tim' mọi thiết bị số, ai làm chủ chip làm chủ công nghệ toàn cầu - đây là sứ mệnh chiến lược quốc gia 50-100 năm",
+                "B. Không nên đầu tư vì VN không có đủ năng lực, nên mua chip nước ngoài rẻ hơn và hiệu quả hơn",
+                "C. Chỉ nên tập trung vào phần mềm vì dễ hơn, không cần phát triển phần cứng phức tạp",
+                "D. Đầu tư vào chip là lãng phí vì thị trường đã bị Mỹ, Trung, Hàn, Đài Loan thống trị"
+            ],
+            "correct": 0,
+            "explanation": "Chip = 'não' của mọi công nghệ (AI, 5G, vũ khí, vệ tinh). Mỹ cấm vận chip Trung Quốc → Trung Quốc tê liệt. VN phải có chip độc lập dù khó, tốn 50-100 năm → bảo đảm chủ quyền công nghệ tuyệt đối. Đây là tầm nhìn chiến lược dài hạn - bài học Trung Quốc bị Mỹ dạy."
+        }
+    ]
+}

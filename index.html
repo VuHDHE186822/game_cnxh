@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sứ Mệnh Công Nhân Trí Thức 4.0</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Màn hình bắt đầu -->
+    <div id="start-screen" class="screen active">
+        <div class="start-container">
+            <h1>🎲 SỨ MỆNH CÔNG NHÂN TRÍ THỨC 4.0</h1>
+            <p class="subtitle">Game giáo dục môn Chủ nghĩa xã hội khoa học</p>
+            
+            <div class="story-box">
+                <p><strong>📖 Cốt truyện:</strong></p>
+                <p><em>"Năm 2026, Việt Nam bước vào giai đoạn chuyển đổi số mạnh mẽ. Các bạn - những sinh viên FPT vừa tốt nghiệp - sẽ trở thành công nhân trí thức thế hệ mới. Nhiệm vụ không chỉ là thành công cá nhân, mà còn thực hiện SỨ MỆNH LỊCH SỬ của giai cấp công nhân!"</em></p>
+            </div>
+
+            <div class="win-condition">
+                <p><strong>🏆 Điều kiện thắng:</strong> Đội đầu tiên đạt <span class="highlight">30 ĐIỂM SỨ MỆNH</span></p>
+                <div class="stats-preview">
+                    <span>📚 Trình độ</span>
+                    <span>💻 Công nghệ</span>
+                    <span>⚔️ Ý thức</span>
+                    <span>🌍 Đóng góp</span>
+                </div>
+            </div>
+
+            <div class="team-setup">
+                <h3>👥 Nhập tên 8 nhóm:</h3>
+                <div class="team-inputs">
+                    <input type="text" id="team1" placeholder="Nhóm 1" class="team-input" style="border-color: #e74c3c">
+                    <input type="text" id="team2" placeholder="Nhóm 2" class="team-input" style="border-color: #3498db">
+                    <input type="text" id="team3" placeholder="Nhóm 3" class="team-input" style="border-color: #2ecc71">
+                    <input type="text" id="team4" placeholder="Nhóm 4" class="team-input" style="border-color: #f39c12">
+                    <input type="text" id="team5" placeholder="Nhóm 5" class="team-input" style="border-color: #9b59b6">
+                    <input type="text" id="team6" placeholder="Nhóm 6" class="team-input" style="border-color: #1abc9c">
+                    <input type="text" id="team7" placeholder="Nhóm 7" class="team-input" style="border-color: #e91e63">
+                    <input type="text" id="team8" placeholder="Nhóm 8" class="team-input" style="border-color: #00bcd4">
+                </div>
+            </div>
+
+            <button id="start-btn" class="btn-primary">🚀 BẮT ĐẦU GAME</button>
+        </div>
+    </div>
+
+    <!-- Màn hình game chính -->
+    <div id="game-screen" class="screen">
+        <div class="game-container">
+            <!-- Header -->
+            <header class="game-header">
+                <h1>🎲 SỨ MỆNH CÔNG NHÂN TRÍ THỨC 4.0</h1>
+                <div class="turn-info">
+                    <span id="current-turn">Lượt: Nhóm 1</span>
+                    <span id="round-counter">Vòng: 1</span>
+                </div>
+            </header>
+
+            <!-- Main game area -->
+            <div class="game-main">
+                <!-- Bàn cờ -->
+                <div class="board-section">
+                    <div class="board">
+                        <!-- Row 1 (Top) - 8 cells -->
+                        <div class="cell corner" data-cell="0" id="cell-0">
+                            <div class="cell-name">🎓 KHỞI HÀNH</div>
+                            <div class="cell-desc">Sứ mệnh bắt đầu</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell career" data-cell="1" id="cell-1">
+                            <div class="cell-name">💻 GCCN Công Nghệ</div>
+                            <div class="cell-effect">💻+2</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell career" data-cell="2" id="cell-2">
+                            <div class="cell-name">🤖 AI & Tự động hóa</div>
+                            <div class="cell-effect">💻+2 📚+1</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell career" data-cell="3" id="cell-3">
+                            <div class="cell-name">📊 Data Scientist</div>
+                            <div class="cell-effect">💻+1 🌍+1</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell career" data-cell="4" id="cell-4">
+                            <div class="cell-name">⚙️ Automation RPA</div>
+                            <div class="cell-effect">💻+2</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell corner event" data-cell="5" id="cell-5">
+                            <div class="cell-name">🎴 BIẾN CỐ GIAI CẤP</div>
+                            <div class="cell-desc">Rút thẻ thách thức</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell career" data-cell="6" id="cell-6">
+                            <div class="cell-name">🔬 Nghiên cứu & Phát triển</div>
+                            <div class="cell-effect">💻+2 📚+1</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell corner event" data-cell="7" id="cell-7">
+                            <div class="cell-name">🎴 BIẾN CỐ GIAI CẤP</div>
+                            <div class="cell-desc">Rút thẻ thách thức</div>
+                            <div class="players-here"></div>
+                        </div>
+
+                        <!-- Row 2 (Sides) -->
+                        <div class="cell policy" data-cell="27" id="cell-27">
+                            <div class="cell-name">📱 Chủ quyền Số</div>
+                            <div class="cell-effect">🌍+2 💻+1</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="board-center">
+                            <div class="center-title">⭐ SỨ MỆNH<br>LỊCH SỬ ⭐</div>
+                            <div class="center-goal">Mục tiêu: 30 điểm</div>
+                        </div>
+                        <div class="cell study" data-cell="8" id="cell-8">
+                            <div class="cell-name">📚 Ý thức Giai cấp</div>
+                            <div class="cell-effect">📚+2</div>
+                            <div class="players-here"></div>
+                        </div>
+
+                        <!-- Row 3 (Sides) -->
+                        <div class="cell career" data-cell="26" id="cell-26">
+                            <div class="cell-name">🤖 Công nghệ Gốc</div>
+                            <div class="cell-effect">💻+2 ⚔️+1</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell study" data-cell="9" id="cell-9">
+                            <div class="cell-name">🌐 Toàn cầu hóa</div>
+                            <div class="cell-effect">📚+1 💻+1</div>
+                            <div class="players-here"></div>
+                        </div>
+
+                        <!-- Row 4 (Sides) -->
+                        <div class="cell study" data-cell="25" id="cell-25">
+                            <div class="cell-name">🏅 Kỹ năng Số</div>
+                            <div class="cell-effect">📚+3</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell study" data-cell="10" id="cell-10">
+                            <div class="cell-name">📕 Lý luận XHKH</div>
+                            <div class="cell-effect">⚔️+3</div>
+                            <div class="players-here"></div>
+                        </div>
+
+                        <!-- Row 5 (Sides) -->
+                        <div class="cell career" data-cell="24" id="cell-24">
+                            <div class="cell-name">💰 Fintech & Blockchain</div>
+                            <div class="cell-effect">💻+2</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell study" data-cell="11" id="cell-11">
+                            <div class="cell-name">🤝 Tổ chức Công đoàn</div>
+                            <div class="cell-effect">📚+1 🌍+1</div>
+                            <div class="players-here"></div>
+                        </div>
+
+                        <!-- Row 6 (Sides) -->
+                        <div class="cell corner event" data-cell="23" id="cell-23">
+                            <div class="cell-name">🎴 BIẾN CỐ GIAI CẤP</div>
+                            <div class="cell-desc">Rút thẻ thách thức</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell study" data-cell="12" id="cell-12">
+                            <div class="cell-name">🎯 Lãnh đạo Tư tưởng</div>
+                            <div class="cell-effect">📚+2 🌍+1</div>
+                            <div class="players-here"></div>
+                        </div>
+
+                        <!-- Row 7 (Sides) -->
+                        <div class="cell social" data-cell="22" id="cell-22">
+                            <div class="cell-name">🌱 Green Tech & Môi trường</div>
+                            <div class="cell-effect">💻+1 🌍+2</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell policy" data-cell="13" id="cell-13">
+                            <div class="cell-name">🏛️ Định hướng Chính sách</div>
+                            <div class="cell-effect">⚔️+2</div>
+                            <div class="players-here"></div>
+                        </div>
+
+                        <!-- Row 8 (Bottom) - 8 cells -->
+                        <div class="cell corner knowledge" data-cell="21" id="cell-21">
+                            <div class="cell-name">📚 TRI THỨC XHCN</div>
+                            <div class="cell-desc">Rút thẻ tri thức</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell social" data-cell="20" id="cell-20">
+                            <div class="cell-name">🔄 Chuyển đổi Số</div>
+                            <div class="cell-effect">All 💻+1</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell social" data-cell="19" id="cell-19">
+                            <div class="cell-name">🚀 Startup Việt</div>
+                            <div class="cell-effect">💻≥5: 🌍+3</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell career" data-cell="18" id="cell-18">
+                            <div class="cell-name">🏭 Công nghiệp 4.0</div>
+                            <div class="cell-effect">💻+1 🌍+2</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell social" data-cell="17" id="cell-17">
+                            <div class="cell-name">⚠️ Mâu thuẫn Giai cấp</div>
+                            <div class="cell-effect">📚&lt;4: Mất lượt</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell social" data-cell="16" id="cell-16">
+                            <div class="cell-name">📲 Nền tảng Số</div>
+                            <div class="cell-effect">Rút Tri thức</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell policy" data-cell="15" id="cell-15">
+                            <div class="cell-name">🏢 Doanh nghiệp Việt</div>
+                            <div class="cell-effect">🌍+2 ⚔️+1</div>
+                            <div class="players-here"></div>
+                        </div>
+                        <div class="cell policy" data-cell="14" id="cell-14">
+                            <div class="cell-name">📋 Make in Vietnam</div>
+                            <div class="cell-effect">All 📚+1</div>
+                            <div class="players-here"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel điều khiển -->
+                <div class="control-section">
+                    <!-- Xúc xắc -->
+                    <div class="dice-area">
+                        <div id="dice" class="dice">?</div>
+                        <button id="roll-btn" class="btn-roll">🎲 ĐỔ XÚC XẮC</button>
+                    </div>
+
+                    <!-- Thông báo -->
+                    <div id="message-box" class="message-box">
+                        <p>Chào mừng đến với game! Nhóm 1 bắt đầu đổ xúc xắc.</p>
+                    </div>
+
+                    <!-- Nút điều khiển -->
+                    <div class="action-buttons">
+                        <button id="next-turn-btn" class="btn-action" disabled>➡️ LƯỢT TIẾP</button>
+                        <button id="end-game-btn" class="btn-end">🏁 KẾT THÚC</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bảng điểm 8 nhóm -->
+            <div class="scoreboard">
+                <h3>📊 BẢNG ĐIỂM SỨ MỆNH</h3>
+                <div class="scores-grid" id="scores-grid">
+                    <!-- Sẽ được tạo bởi JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal thẻ -->
+    <div id="card-modal" class="modal">
+        <div class="modal-content">
+            <div id="card-type" class="card-type">THẺ TRI THỨC</div>
+            <div id="card-text" class="card-text">Nội dung thẻ...</div>
+            <div id="card-effect" class="card-effect">Hiệu ứng: ...</div>
+            <button id="close-card-btn" class="btn-primary">✓ ĐÃ HIỂU</button>
+        </div>
+    </div>
+
+    <!-- Modal câu hỏi trắc nghiệm -->
+    <div id="quiz-modal" class="modal quiz-modal">
+        <div class="modal-content">
+            <div id="quiz-cell-name" class="card-type knowledge">📍 Ô: CNTT</div>
+            <div id="quiz-timer" class="quiz-timer">⏱️ 15s</div>
+            <div id="quiz-question" class="quiz-question">Câu hỏi sẽ hiển thị ở đây...</div>
+            <div id="quiz-options" class="quiz-options">
+                <!-- Options sẽ được tạo bởi JS -->
+            </div>
+            <div id="quiz-result" class="quiz-result" style="display: none;"></div>
+            <div id="quiz-explanation" class="quiz-explanation" style="display: none;"></div>
+            <button id="quiz-continue-btn" class="btn-primary" style="display: none;">➡️ TIẾP TỤC</button>
+        </div>
+    </div>
+
+    <!-- Modal kết thúc -->
+    <div id="end-modal" class="modal">
+        <div class="modal-content end-content">
+            <h2>🏆 KẾT QUẢ GAME</h2>
+            <div id="final-results"></div>
+            <div class="lesson-box">
+                <h3>📖 Bài học rút ra:</h3>
+                <p><em>"Sinh viên FPT không chỉ là người làm thuê, mà là CÔNG NHÂN TRÍ THỨC - lực lượng tiên phong thực hiện sứ mệnh lịch sử: làm chủ công nghệ, xây dựng đất nước, hướng tới xã hội công bằng."</em></p>
+            </div>
+            <button id="restart-btn" class="btn-primary">🔄 CHƠI LẠI</button>
+        </div>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
