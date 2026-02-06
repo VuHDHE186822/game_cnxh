@@ -178,7 +178,7 @@ let gameState = {
     teams: [],
     currentTeam: 0,
     round: 1,
-    maxRounds: 6,
+    maxRounds: 8,
     winScore: 20,
     isRolling: false,
     gameEnded: false,
@@ -192,6 +192,7 @@ const elements = {
     startScreen: document.getElementById('start-screen'),
     gameScreen: document.getElementById('game-screen'),
     startBtn: document.getElementById('start-btn'),
+    numTeams: document.getElementById('num-teams'),
     rollBtn: document.getElementById('roll-btn'),
     nextTurnBtn: document.getElementById('next-turn-btn'),
     endGameBtn: document.getElementById('end-game-btn'),
@@ -222,6 +223,11 @@ const elements = {
 // ========== INITIALIZE ==========
 function init() {
     elements.startBtn.addEventListener('click', startGame);
+    // show/hide team inputs based on number selected
+    if (elements.numTeams) {
+        elements.numTeams.addEventListener('change', updateTeamInputsVisibility);
+        updateTeamInputsVisibility();
+    }
     elements.rollBtn.addEventListener('click', rollDice);
     elements.nextTurnBtn.addEventListener('click', nextTurn);
     elements.endGameBtn.addEventListener('click', endGame);
@@ -235,21 +241,22 @@ function init() {
 function startGame() {
     // Lấy tên các đội
     gameState.teams = [];
-    for (let i = 1; i <= 8; i++) {
+    const num = parseInt(elements.numTeams?.value) || 8;
+    for (let i = 1; i <= num; i++) {
         const input = document.getElementById(`team${i}`);
-        const name = input.value.trim() || `Nhóm ${i}`;
+        const name = input ? (input.value.trim() || `Nhóm ${i}`) : `Nhóm ${i}`;
         gameState.teams.push({
             id: i,
             name: name,
             position: 0,
             stats: {
-                study: 2,   // 📚 Trình độ
-                tech: 2,    // 💻 Công nghệ
-                class: 1,   // ⚔️ Ý thức giai cấp
-                social: 1   // 🌍 Đóng góp xã hội
+                study: 2,
+                tech: 2,
+                class: 1,
+                social: 1
             },
             skipTurn: false,
-            color: TEAM_COLORS[i - 1],
+            color: TEAM_COLORS[(i - 1) % TEAM_COLORS.length],
             correctStreak: 0,
             achievements: []
         });
@@ -698,7 +705,7 @@ function finishTurn() {
 
 function nextTurn() {
     // Chuyển sang đội tiếp theo
-    gameState.currentTeam = (gameState.currentTeam + 1) % 8;
+    gameState.currentTeam = (gameState.currentTeam + 1) % gameState.teams.length;
     
     // Nếu quay lại đội đầu tiên = hết 1 vòng
     if (gameState.currentTeam === 0) {
@@ -720,6 +727,21 @@ function nextTurn() {
 
     const team = gameState.teams[gameState.currentTeam];
     showMessage(`🎲 Lượt của ${team.name}. Hãy đổ xúc xắc!`);
+}
+
+// Hide/show team input fields on the start screen according to selected number
+function updateTeamInputsVisibility() {
+    const num = parseInt(elements.numTeams?.value) || 8;
+    for (let i = 1; i <= 8; i++) {
+        const input = document.getElementById(`team${i}`);
+        if (!input) continue;
+        if (i <= num) {
+            input.style.display = '';
+        } else {
+            input.style.display = 'none';
+            input.value = '';
+        }
+    }
 }
 
 function checkWinCondition() {
