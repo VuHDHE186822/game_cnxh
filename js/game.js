@@ -118,9 +118,9 @@ const CELLS = [
     { id: 14, name: "📋 Chính sách Nhà nước", type: "policy", effect: { study: 1 }, allTeams: true, desc: "Đào tạo nhân lực số - Tất cả đội +1📚" },
     { id: 15, name: "🏢 DN Công nghệ Việt", type: "policy", effect: { social: 2, class: 1 }, desc: "FPT, Viettel, VNPT - Đóng góp cho đất nước" },
     { id: 16, name: "📲 Kinh tế nền tảng", type: "social", effect: null, drawKnowledge: true, desc: "Grab/Shopee - Rút thẻ tri thức" },
-    { id: 17, name: "⚠️ Nguy cơ thất nghiệp", type: "social", effect: null, desc: "Nếu 📚<4: Mất lượt; Nếu ≥4: +1⚔️" },
+    { id: 17, name: "💼 Việc làm công nghệ", type: "social", effect: { tech: 1, social: 1 }, desc: "Cơ hội nghề nghiệp trong kỷ nguyên số" },
     { id: 18, name: "🏭 Công nghiệp 4.0", type: "career", effect: { tech: 1, social: 2 }, desc: "Tích hợp IoT, Big Data vào sản xuất" },
-    { id: 19, name: "🚀 Startup công nghệ", type: "social", effect: null, desc: "Nếu 💻≥5: +3🌍; Nếu không: -1💻" },
+    { id: 19, name: "🌏 Hội nhập quốc tế", type: "social", effect: { social: 2, study: 1 }, desc: "Tham gia chuỗi cung ứng toàn cầu" },
     { id: 20, name: "🔄 Chuyển đổi số", type: "social", effect: { tech: 1 }, allTeams: true, desc: "Xu thế chung - Tất cả đội +1💻" },
     { id: 21, name: "📚 THẺ TRI THỨC", type: "knowledge", effect: null, desc: "Rút 1 thẻ tri thức" },
     { id: 22, name: "🌱 Green Tech", type: "social", effect: { tech: 1, social: 2 }, desc: "Công nghệ xanh vì môi trường" },
@@ -376,18 +376,6 @@ function handleSocialCell(cellIndex) {
     const team = gameState.teams[gameState.currentTeam];
 
     switch (cellIndex) {
-        case 19: // Startup - có câu hỏi
-            showQuiz(cell, () => {
-                if (team.stats.tech >= 5) {
-                    applyEffect(team, { social: 3 });
-                    showMessage(`🚀 Startup thành công! +3🌍`);
-                } else {
-                    applyEffect(team, { tech: -1 });
-                    showMessage(`😔 Startup thất bại do thiếu công nghệ! -1💻`);
-                }
-            });
-            break;
-
         case 20: // Chuyển đổi số
             gameState.teams.forEach(t => {
                 applyEffect(t, { tech: 1 });
@@ -402,23 +390,8 @@ function handleSocialCell(cellIndex) {
             });
             break;
 
-        case 17: // Thất nghiệp - có câu hỏi
-            showQuiz(cell, () => {
-                if (team.stats.study < 4) {
-                    team.skipTurn = true;
-                    showMessage(`⚠️ Thiếu kỹ năng! ${team.name} mất lượt tiếp theo.`);
-                } else {
-                    applyEffect(team, { class: 1 });
-                    showMessage(`💪 Nhận thức được tầm quan trọng của học tập! +1⚔️`);
-                }
-            });
-            break;
-
-        case 22: // Green Tech
-            showQuiz(cell);
-            break;
-
         default:
+            // Tất cả các ô social còn lại đều có câu hỏi bình thường
             if (cell.effect) {
                 showQuiz(cell);
             } else {
