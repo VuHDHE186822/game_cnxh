@@ -180,6 +180,7 @@ let gameState = {
     round: 1,
     maxRounds: 8,
     winScore: 20,
+    endPending: false,
     isRolling: false,
     gameEnded: false,
     currentQuiz: null,
@@ -713,6 +714,12 @@ function nextTurn() {
         showMessage(`🔄 Bắt đầu vòng ${gameState.round}!`);
         
         // Kiểm tra hết vòng
+        // Nếu có kết thúc đang chờ (có đội đạt winScore trong vòng trước), xác định người thắng
+        if (gameState.endPending) {
+            finalizeRoundWinners();
+            return;
+        }
+
         if (gameState.round > gameState.maxRounds) {
             endGame();
             return;
@@ -749,13 +756,9 @@ function checkWinCondition() {
     const total = getTeamTotal(team);
 
     if (total >= gameState.winScore) {
-        gameState.gameEnded = true;
-        showMessage(`🏆 ${team.name} đã chiến thắng với ${total} điểm Sứ mệnh!`);
-        
-        // Highlight winner
-        document.querySelector(`[data-team="${team.id}"]`)?.classList.add('winner');
-        
-        setTimeout(() => endGame(), 2000);
+        // Mark that the game should end at the end of the current round
+        gameState.endPending = true;
+        showMessage(`⚡ ${team.name} đã đạt ${total} điểm — kết thúc vòng này sẽ xác định người thắng.`);
     }
 }
 
@@ -814,19 +817,34 @@ function showAchievementToast(team, achievement) {
     showMessage(`⭐ ${team.name} mở khóa: ${achievement.name}!`);
 }
 
-function checkWinCondition() {
-    const team = gameState.teams[gameState.currentTeam];
-    const total = getTeamTotal(team);
-
-    if (total >= gameState.winScore) {
-        gameState.gameEnded = true;
-        showMessage(`🏆 ${team.name} đã chiến thắng với ${total} điểm Sứ mệnh!`);
-        
-        // Highlight winner
-        document.querySelector(`[data-team="${team.id}"]`)?.classList.add('winner');
-        
-        setTimeout(() => endGame(), 2000);
+function finalizeRoundWinners() {
+    // Determine teams that reached or exceeded winScore
+    const candidates = gameState.teams.filter(t => getTeamTotal(t) >= gameState.winScore);
+    if (candidates.length === 0) {
+        // Nothing to do
+        gameState.endPending = false;
+        return;
     }
+
+    // Find the highest total among candidates
+    let maxTotal = Math.max(...candidates.map(t => getTeamTotal(t)));
+    let topTeams = candidates.filter(t => getTeamTotal(t) === maxTotal);
+
+    // Tie-breaker: choose team with most achievements, then earliest in team order
+    if (topTeams.length > 1) {
+        topTeams.sort((a, b) => (b.achievements.length - a.achievements.length) || (gameState.teams.indexOf(a) - gameState.teams.indexOf(b)));
+    }
+
+    const winner = topTeams[0];
+    gameState.gameEnded = true;
+    gameState.endPending = false;
+
+    // Highlight winner in UI
+    document.querySelectorAll('.team-row.winner').forEach(el => el.classList.remove('winner'));
+    document.querySelector(`[data-team="${winner.id}"]`)?.classList.add('winner');
+
+    showMessage(`🏆 ${winner.name} thắng vòng với ${getTeamTotal(winner)} điểm! Kết thúc trò chơi.`);
+    setTimeout(() => endGame(), 2000);
 }
 
 function endGame() {
