@@ -178,7 +178,7 @@ let gameState = {
     teams: [],
     currentTeam: 0,
     round: 1,
-    maxRounds: 8,
+    maxRounds: 6,
     winScore: 20,
     endPending: false,
     isRolling: false,
@@ -714,14 +714,10 @@ function nextTurn() {
         showMessage(`🔄 Bắt đầu vòng ${gameState.round}!`);
         
         // Kiểm tra hết vòng
-        // Nếu có kết thúc đang chờ (có đội đạt winScore trong vòng trước), xác định người thắng
-        if (gameState.endPending) {
+        // Nếu có kết thúc đang chờ (có đội đạt winScore trong vòng trước)
+        // hoặc đã hoàn tất số vòng tối đa, xác định người thắng
+        if (gameState.endPending || gameState.round > gameState.maxRounds) {
             finalizeRoundWinners();
-            return;
-        }
-
-        if (gameState.round > gameState.maxRounds) {
-            endGame();
             return;
         }
     }
@@ -770,7 +766,7 @@ function checkAchievements(team) {
             const unlocked = achievement.check(team, gameState.teams);
             if (unlocked) {
                 team.achievements.push(achievement.id);
-                showAchievementToast(team, achievement);
+                // Popups disabled by user request; achievements tracked silently.
             }
         }
     });
@@ -778,57 +774,22 @@ function checkAchievements(team) {
 
 // Show achievement toast notification
 function showAchievementToast(team, achievement) {
-    const toast = document.createElement('div');
-    toast.className = 'achievement-toast';
-    toast.style.cssText = `
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        background: linear-gradient(135deg, #FFD700, #FFA500);
-        color: #000;
-        padding: 20px 30px;
-        border-radius: 15px;
-        box-shadow: 0 10px 30px rgba(255, 215, 0, 0.5);
-        font-weight: bold;
-        font-size: 1.1rem;
-        z-index: 10000;
-        animation: slideIn 0.5s ease-out;
-        min-width: 300px;
-        border: 3px solid ${team.color};
-    `;
-    
-    toast.innerHTML = `
-        <div style="text-align: center;">
-            <div style="font-size: 2rem; margin-bottom: 10px;">⭐ ACHIEVEMENT UNLOCKED! ⭐</div>
-            <div style="font-size: 1.3rem; margin-bottom: 5px;">${achievement.name}</div>
-            <div style="font-size: 0.9rem; opacity: 0.8;">${team.name}</div>
-            <div style="font-size: 0.85rem; margin-top: 5px; font-style: italic;">${achievement.desc}</div>
-        </div>
-    `;
-    
-    document.body.appendChild(toast);
-    
-    // Remove after 5 seconds
-    setTimeout(() => {
-        toast.style.animation = 'slideOut 0.5s ease-in';
-        setTimeout(() => toast.remove(), 500);
-    }, 5000);
-    
-    showMessage(`⭐ ${team.name} mở khóa: ${achievement.name}!`);
+    // Achievement popups disabled per user request.
+    return;
 }
 
 function finalizeRoundWinners() {
     // Determine teams that reached or exceeded winScore
     const candidates = gameState.teams.filter(t => getTeamTotal(t) >= gameState.winScore);
-    if (candidates.length === 0) {
-        // Nothing to do
-        gameState.endPending = false;
-        return;
+    let finalCandidates = candidates;
+    // If no one reached winScore, consider all teams (choose highest-scoring)
+    if (finalCandidates.length === 0) {
+        finalCandidates = [...gameState.teams];
     }
 
     // Find the highest total among candidates
-    let maxTotal = Math.max(...candidates.map(t => getTeamTotal(t)));
-    let topTeams = candidates.filter(t => getTeamTotal(t) === maxTotal);
+    let maxTotal = Math.max(...finalCandidates.map(t => getTeamTotal(t)));
+    let topTeams = finalCandidates.filter(t => getTeamTotal(t) === maxTotal);
 
     // Tie-breaker: choose team with most achievements, then earliest in team order
     if (topTeams.length > 1) {
