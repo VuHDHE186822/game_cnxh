@@ -50,13 +50,13 @@ function loadDefaultQuestions() {
         career: [
             {
                 question: "Theo quan điểm Mác-Lênin, tại sao giai cấp công nhân được coi là giai cấp tiên tiến nhất?",
-                options: ["A. Vì họ đông đảo nhất", "B. Vì họ gắn liền với phương thức sản xuất tiên tiến nhất", "C. Vì họ có thu nhập cao nhất", "D. Vì họ được đào tạo tốt nhất"],
+                options: ["Vì họ đông đảo nhất", "Vì họ gắn liền với phương thức sản xuất tiên tiến nhất", "Vì họ có thu nhập cao nhất", "Vì họ được đào tạo tốt nhất"],
                 correct: 1,
                 explanation: "Giai cấp công nhân gắn liền với lực lượng sản xuất tiên tiến nhất."
             },
             {
                 question: "Sinh viên FPT học ngành CNTT sau tốt nghiệp thuộc thành phần nào?",
-                options: ["A. Tầng lớp trí thức", "B. Giai cấp tư sản", "C. Công nhân trí thức - bộ phận của giai cấp công nhân", "D. Tầng lớp trung lưu"],
+                options: ["Tầng lớp trí thức", "Giai cấp tư sản", "Công nhân trí thức - bộ phận của giai cấp công nhân", "Tầng lớp trung lưu"],
                 correct: 2,
                 explanation: "Lập trình viên, kỹ sư CNTT là công nhân trí thức thuộc giai cấp công nhân hiện đại."
             }
@@ -64,7 +64,7 @@ function loadDefaultQuestions() {
         study: [
             {
                 question: "Tại sao học tập suốt đời là yêu cầu bắt buộc với công nhân thời đại số?",
-                options: ["A. Vì công nghệ thay đổi nhanh, kiến thức cũ nhanh lỗi thời", "B. Vì nhà tuyển dụng yêu cầu", "C. Vì muốn có bằng cấp đẹp", "D. Vì bắt buộc phải học"],
+                options: ["Vì công nghệ thay đổi nhanh, kiến thức cũ nhanh lỗi thời", "Vì nhà tuyển dụng yêu cầu", "Vì muốn có bằng cấp đẹp", "Vì bắt buộc phải học"],
                 correct: 0,
                 explanation: "Cách mạng 4.0 khiến công nghệ thay đổi nhanh chóng."
             }
@@ -72,7 +72,7 @@ function loadDefaultQuestions() {
         social: [
             {
                 question: "Chuyển đổi số tạo ra cơ hội gì cho giai cấp công nhân Việt Nam?",
-                options: ["A. Chỉ tạo ra thất nghiệp", "B. Cơ hội nâng cao trình độ, tham gia vào chuỗi giá trị toàn cầu", "C. Không có cơ hội gì", "D. Chỉ có lợi cho tư bản"],
+                options: ["Chỉ tạo ra thất nghiệp", "Cơ hội nâng cao trình độ, tham gia vào chuỗi giá trị toàn cầu", "Không có cơ hội gì", "Chỉ có lợi cho tư bản"],
                 correct: 1,
                 explanation: "Chuyển đổi số mở ra cơ hội việc làm mới."
             }
@@ -80,7 +80,7 @@ function loadDefaultQuestions() {
         policy: [
             {
                 question: "Công đoàn số có vai trò gì trong thời đại 4.0?",
-                options: ["A. Không còn cần thiết", "B. Bảo vệ quyền lợi công nhân trên môi trường số", "C. Chỉ thu phí công đoàn", "D. Tổ chức du lịch"],
+                options: ["Không còn cần thiết", "Bảo vệ quyền lợi công nhân trên môi trường số", "Chỉ thu phí công đoàn", "Tổ chức du lịch"],
                 correct: 1,
                 explanation: "Công đoàn số bảo vệ quyền lợi công nhân trong nền kinh tế số."
             }
@@ -179,7 +179,7 @@ let gameState = {
     currentTeam: 0,
     round: 1,
     maxRounds: 6,
-    winScore: 30,
+    winScore: 20,
     isRolling: false,
     gameEnded: false,
     currentQuiz: null,
@@ -855,7 +855,7 @@ function renderScoreboard() {
                     <div class="stat">⚔️ ${team.stats.class}</div>
                     <div class="stat">🌍 ${team.stats.social}</div>
                 </div>
-                <div class="team-total">${total}/30</div>
+                <div class="team-total">${total}/${gameState.winScore}</div>
             </div>
         `;
     });
