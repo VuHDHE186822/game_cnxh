@@ -284,8 +284,7 @@ function rollDice() {
     if (team.skipTurn) {
         team.skipTurn = false;
         showMessage(`⏭️ ${team.name} bị mất lượt do thiếu kỹ năng!`);
-        elements.rollBtn.disabled = true;
-        elements.nextTurnBtn.disabled = false;
+        finishTurn();
         return;
     }
 
